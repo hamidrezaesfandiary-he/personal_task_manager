@@ -3,7 +3,13 @@ def add_task(tasks, task):
 
 
 def show_tasks(tasks):
-    print("Your tasks: ")
+    print("Your tasks:")
 
     for task in tasks:
         print(task)
+
+
+def save_tasks(tasks):
+    with open("tasks.txt", "w") as file:
+        for task in tasks:
+            file.write(" - " + task)
