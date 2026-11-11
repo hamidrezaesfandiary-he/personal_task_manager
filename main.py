@@ -14,7 +14,7 @@ if admin_mode == "yes":
     else:
         print("wrong password")
 
-print("WElcome " , name)
+print("Hello " , name, "welcome to personal task manager")
 tasks = load_tasks()
 count = int(input("how many tasks do you want to add? :"))
 for i in range(count):
