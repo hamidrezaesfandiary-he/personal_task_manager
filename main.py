@@ -28,4 +28,5 @@ for i in range(count):
 
 
 show_tasks(tasks)
+print("total task", len(tasks))
 save_tasks(tasks)
